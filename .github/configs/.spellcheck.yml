@@ -1,12 +1,15 @@
 matrix:
-- name: Wordlists
+- name: Markdown
   aspell:
     lang: en
+    run-together: true
+    camel-case: true
+    ignore-case: true
   dictionary:
     wordlists:
-      - ./.github/wordlists/wordlist.txt
-      - ./.github/wordlists/wordlist-rand.txt
-      - ./.github/wordlists/wordlist-latin.txt
+      - .wordlist.txt
+      - .wordlist-rand.txt
+      - .wordlist-latin.txt
     encoding: utf-8
   sources:
   - '**/*.md.blade.php'
