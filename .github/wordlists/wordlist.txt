@@ -89,7 +89,6 @@ alpinejs
 amd
 Angular's
 AnyFunction
-AnyObject
 AnySchema
 ap
 apache
@@ -267,10 +266,7 @@ Bool
 bool
 boolean
 BootServiceProviders
-Bootstrapper
-bootstrapper
 bootstrappers
-bootstrapWith
 bootWhen
 BridgeChain
 Bridgechain
@@ -296,7 +292,6 @@ buildBIP
 buildDelegateRegistration
 BuilderFactory
 buildMultiSignatureRegistration
-buildPeerFlags
 buildPeerOptions
 buildSecondSignature
 BuildSecondSignatureRegistration
@@ -407,10 +402,8 @@ completionHandler
 computeId
 conf
 config
-ConfigFlags
 configManager
 configManagers
-ConfigPlugins
 configs
 ConfigurationAsync
 conn
@@ -865,7 +858,6 @@ getConfig
 GetConnections
 getConnections
 getConstructor
-getCorePath
 getCurrency
 getDay
 getDayOfMonth
@@ -883,7 +875,6 @@ getFee
 getFirst
 getFirstInstance
 getFlag
-getFlags
 getHeight
 getHour
 GetId
@@ -1212,7 +1203,6 @@ jsonrpc
 jsonTransaction
 jsx
 keepachangelog
-KernelEvent
 Keychain
 keychain
 keyfile
@@ -1222,7 +1212,6 @@ keyPair
 keyPairs
 keysGroup
 keysgroup
-KeyValuePair
 KeywordDefinition
 klass
 kmackay
@@ -1682,7 +1671,6 @@ privateKeyHex
 privateKeyString
 processStatus
 processSync
-processType
 producedBlocks
 profileData
 ProfileRepository
@@ -1776,7 +1764,6 @@ RegisterBasePaths
 RegisterBaseServiceProviders
 registerdelegatebutton
 RegisterErrorHandler
-registerEventDispatcher
 registerExitHandler
 registerRoutes
 registerServiceProvider
@@ -2514,6 +2501,10 @@ Weibo
 weibo
 werkzeug
 wget
+whereKind
+whiteList
+Whitepaper
+whitepaper
 Whois
 whois
 wif
@@ -2522,13 +2513,22 @@ wifString
 wifVersion
 wikipedia
 winston
+WinstonLogger
 WIP
+withCoreOptions
+withCryptoOptions
 withFee
 withOptions
 Wordlist
 wordlist
 wordlists
+workspaces
+wraithgar
+writeFileSync
+WriteHeader
+WriteLine
 writeUint
+wrongTransactionOrder
 ws
 WSL
 wsl
@@ -2541,8 +2541,6 @@ XLM
 xlm
 xml
 xprv
-write
-file
 xpub
 XRP
 xrp
