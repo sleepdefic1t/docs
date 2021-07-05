@@ -1,0 +1,13 @@
+matrix:
+- name: Wordlists
+  aspell:
+    lang: en
+  dictionary:
+    wordlists:
+      - ./.github/wordlists/wordlist.txt
+      - ./.github/wordlists/wordlist-rand.txt
+      - ./.github/wordlists/wordlist-latin.txt
+    encoding: utf-8
+  # sources:
+  # - '**/*.md.blade.php'
+  default_encoding: utf-8
