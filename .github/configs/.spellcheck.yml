@@ -2,15 +2,16 @@ matrix:
 - name: Wordlists
   aspell:
     lang: en
+    # run-together: true  # not working per man
+    camel-case: true
+    ignore-case: true
   dictionary:
     wordlists:
       - ./.github/wordlists/wordlist.txt
+      - ./.github/wordlists/wordlist-run-together.txt  # rm when run-together is working
       - ./.github/wordlists/wordlist-rand.txt
       - ./.github/wordlists/wordlist-latin.txt
     encoding: utf-8
-    run-together: true
-    camel-case: true
-    ignore-case: true
   sources:
   - '**/*.md.blade.php'
   default_encoding: utf-8
