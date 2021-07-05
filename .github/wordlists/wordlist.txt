@@ -2544,11 +2544,13 @@ signup
 Bootstrapper
 ConfigFlags
 ConfigPlugins
+DappManagerIdentifier
 KernelEvent
 invoca
 KeyValuePair
 bootstrapWith
 bootstrapper
+nodem
 buildPeerFlags
 getCorePath
 getFlags
