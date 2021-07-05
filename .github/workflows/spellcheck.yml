@@ -20,5 +20,4 @@ jobs:
       - name: GitHub Spellcheck Action
         uses: rojopolis/spellcheck-github-actions@0.14.0
         with:
-          source_files: '**/*.md.blade.php'
           config_path: ./.github/configs/.spellcheck.yml
