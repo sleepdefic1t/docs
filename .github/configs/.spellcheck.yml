@@ -1,5 +1,5 @@
 matrix:
-- name: Wordlist
+- name: Wordlists
   aspell:
     lang: en
     run-together: true
