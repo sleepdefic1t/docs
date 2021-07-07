@@ -1,0 +1,28 @@
+line-length: false
+
+MD010: false
+
+MD024:
+  allow_different_nesting: true
+
+MD025: false
+
+MD026:
+  punctuation: ".,;:!"
+
+MD033:
+  allowed_elements:
+    - a
+    - b
+    - br
+    - details
+    - h1
+    - h3
+    - HR
+    - i
+    - p
+    - summary
+    - u
+    - x-alert
+
+MD045: false
