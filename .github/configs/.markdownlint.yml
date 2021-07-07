@@ -11,19 +11,18 @@ MD026:
   punctuation: ".,;:!"
 
 MD033:
-  allowed_elements": [
-    "a", 
-    "b",
-    "br",
-    "details",
-    "h1",
-    "h3",
-    "HR",
-    "i",
-    "p",
-    "summary",
-    "u",
-    "x-alert"
-  ]
+  allowed_elements:
+    - a
+    - b
+    - br
+    - details
+    - h1
+    - h3
+    - HR
+    - i
+    - p
+    - summary
+    - u
+    - x-alert
 
 MD045: false
